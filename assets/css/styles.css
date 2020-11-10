@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+    text-decoration: none;
+} 
+#navbar {
+    background-color: gainsboro;
+}
+#hero {
+    background-color: dodgerblue;
+}
