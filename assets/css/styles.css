@@ -3,12 +3,70 @@
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+    /*typography*/
+
 a {
     text-decoration: none;
 } 
-#navbar {
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 28px;
+}
+
+/*button*/
+
+.btn {
+    background: #d79398;
+    color: #4b3425;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+
+}
+.btn:hover {
+    background:#4b3425;
+    color: #d79398; 
+}
+.container {
+    max-width: 880px;
+    margin: 0 auto;
+    position: relative;
+
+}
+header {
+    position: relative;
     background-color: gainsboro;
+}
+nav {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+nav ul {
+    list-style: none;
+
+}
+nav li {
+    display: inline-block;
+
+}
+nav a {
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    padding: 40px 40px 0 10px
+}
+.fc {
+    display: flex;
 }
 #hero {
     background-color: dodgerblue;
+}
+.content {
+    text-align: center;
+    vertical-align: auto;
+    
 }
