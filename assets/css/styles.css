@@ -18,20 +18,45 @@ p {
     margin: 10px;
 }
 
+
 /*button*/
 
 .btn {
-    background: #d79398;
-    color: #4b3425;
+    background: rgba(226, 156, 27, 0.897);
+    color: white;
     display: inline-block;
-    padding: 10px;
+    padding: 20px;
     border-radius: 8px;
     border: none;
+    width: 50%;
+    font-size: 22px;
 
 }
 .btn:hover {
-    background:#4b3425;
-    color: #d79398; 
+    background: rgb(226, 156, 27);
+    color: white;
+    width: 70%;
+}
+input::placeholder{
+    text-align: center;
+ }
+ textarea::placeholder {
+     text-align: center;
+     padding-top: 50%;
+     padding-bottom: 50%;
+ }
+.bubble {
+    width: 60%;
+    border-radius: 5px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+textarea {
+    width: 65%;
+    border-radius: 10px;
+    height: 300px;
+    font-size: 18px;
 }
 .container {
     
@@ -61,35 +86,51 @@ nav a {
     display: inline-block;
     padding: 40px 40px 0 10px
 }
-.fc {
-    display: flex;
-}
+
 .hero {
-    background-color: dodgerblue;
+    background-color: rgb(30,144,255);
     height: calc(100vh);
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
 }
+
 .content {
     display: inline-block;
     max-width: 650px;
-
-    background: linear-gradient(
-        135deg,
-        rgba(0,0,0,0)5%,
-        rgba(0,0,0,.75)5%,
-        rbga(0,0,0,.75)95%,
-        rgba(0,0,0,0)95%
-    );
     color:#fff;
     margin: 0 auto;
-    padding: 50px;
+    padding: 100px 50px 50px 50px;
+    text-align: center;
+    /*
+    border: 2px solid;
+    border-radius: 5px;
+    */
+}
+
+.border { 
+    
+    padding: ;
+    background:
+    linear-gradient(to right, black 1px, transparent 2px) 0 0,
+    linear-gradient(to left, black 1px, transparent 2px) 100% 100%,
+    linear-gradient(to bottom, black 1px, transparent 2px) 0 0,
+    linear-gradient(to top, black 1px, transparent 2px) 100% 100%;
+
+  background-repeat: no-repeat;
+  background-size: 120px 60px;
+    
+}
+#contact {
+    display: inline-block;
+    width: 900px;
+    max-width:50%;
+    color:#fff;
+    margin: 0 auto;
+    padding: 100px 50px 50px 50px;
     text-align: center;
     border: 2px solid;
     border-radius: 5px;
-    
-    
+    background-color: rgba(41, 170, 209, 0.5);
+
 }
