@@ -14,6 +14,9 @@ h1 {
 h2 {
     font-size: 28px;
 }
+p {
+    margin: 10px;
+}
 
 /*button*/
 
@@ -31,9 +34,8 @@ h2 {
     color: #d79398; 
 }
 .container {
-    max-width: 880px;
-    margin: 0 auto;
-    position: relative;
+    
+    max-width: 980px;
 
 }
 header {
@@ -62,11 +64,32 @@ nav a {
 .fc {
     display: flex;
 }
-#hero {
+.hero {
     background-color: dodgerblue;
+    height: calc(100vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
 .content {
+    display: inline-block;
+    max-width: 650px;
+
+    background: linear-gradient(
+        135deg,
+        rgba(0,0,0,0)5%,
+        rgba(0,0,0,.75)5%,
+        rbga(0,0,0,.75)95%,
+        rgba(0,0,0,0)95%
+    );
+    color:#fff;
+    margin: 0 auto;
+    padding: 50px;
     text-align: center;
-    vertical-align: auto;
+    border: 2px solid;
+    border-radius: 5px;
+    
     
 }
